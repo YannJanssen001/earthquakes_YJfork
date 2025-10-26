@@ -19,7 +19,8 @@ envs/                         # Local conda environments created in project dire
 environment.yml               # Conda environment specification (remove this line if you want to track dependencies)
 
 # IDE files
-.vscode/                      # Visual Studio Code settings and workspace files
+.vscode/launch.json           # VS Code debug configurations (user-specific)
+.vscode/tasks.json            # VS Code task configurations (can be user-specific)
 .idea/                        # JetBrains IDE (PyCharm) project files
 *.swp                         # Vim swap files
 *.swo                         # Vim swap files (alternative extension)

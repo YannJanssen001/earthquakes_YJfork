@@ -26,7 +26,7 @@ def extract_earthquake_data(data):
         
         years.append(year)
         magnitudes.append(magnitude)
-    
+
     return np.array(years), np.array(magnitudes)
 
 
